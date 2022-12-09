@@ -1,0 +1,713 @@
+*{
+    font-family: "robo";
+    font-weight: 400;
+}
+body{
+    margin: 0px;
+}
+@font-face {
+    font-family: "robo";
+    src: url(./roboto/Roboto-Italic.ttf);
+    font-style: italic
+}
+@font-face {
+    font-family: "robo";
+    src: url(./roboto/Roboto-Regular.ttf);
+    font-style: normal;
+}
+
+
+.gl{
+    width: 90%;
+    background-color: #006450;
+    height: 2px;
+    position: relative;
+    left: 5%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.hn{font-size: 16px; display: flex; padding: 0px; align-items: baseline; margin: 0px;}
+.hn > li{padding: 20px 30px;color: #038a6f; display: block;transition: 0.5s linear;}
+.hn > li:hover{background-color: #ccc;}
+h1{color: #02ecab; margin: 0px; transition: 1s;}
+h1:hover{
+    scale: 1.5;
+}
+#h11{font-size: 18px; font-style: italic;}
+#h12{font-size: 20px;}
+#hup{vertical-align: super; font-size: 13px;}
+/* header */
+
+
+
+#pic1{
+    width: 100%;
+    height: 60vw;
+    background-image: url(./pic1.png);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+#pic1txt {
+    position: relative;
+    top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#pic1txt > p{
+    color: white;
+    font-size: 36px;
+}
+#pic1txt > button{
+    height: 60px;
+    font-size: 24px;
+    color: black;
+    border: 0px;
+    padding: 10px 40px;
+    background-color: yellow;
+}
+#pic1txt > button:hover{
+    background-color: rgb(255, 179, 0);
+}
+#rects{
+    position: relative;
+    left: 85%;
+    top: 75%;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.rect1{
+    box-sizing: border-box;
+    width: 10px;
+    height: 10px;
+    border: 2px white solid;
+}
+.rect2{
+    box-sizing: border-box;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+.bigtxt{
+    margin: 60px 0px;
+    text-align: center;
+    font-size: 36px;
+    color: #038a6f;
+}
+.bl4f{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.bl4{
+    width: 48%;
+    margin-bottom: 30px;
+}
+#imgb1{
+    background-image: url(./bl4/bl14.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover; 
+}
+#imgb2{
+    background-image: url(./bl4/bl24.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover; 
+}
+#imgb3{
+    background-image: url(./bl4/bl34.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover; 
+}
+#imgb4{
+    background-image: url(./bl4/bl44.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover; 
+}
+.txtbl4{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+.txtbl4 > h3{
+    font-size: 36px;
+    color: white;
+    margin: 0px;
+}
+.txtbl4 > p{
+    font-size: 24px;
+    margin-top: 10px;
+}
+.ybl{
+    font-size: 24px;
+    background-color: yellow;
+    text-align: center;
+    padding: 20px 0px;
+}
+.ybl:hover{
+    background: rgb(255, 179, 0);
+}
+.doubleblock{
+    display: flex;
+    margin: 50px 0px;
+    justify-content: space-evenly;
+    color: #038a6f;
+}
+.bl2{
+    width: 45%;
+    padding-bottom: 45%;
+    background-size: cover;
+}
+#bl12{
+    background-image: url(./bl2/bl12.png);
+}
+#bl22{
+    background-image: url(./bl2/bl22.png);
+}
+#bl32{
+    background-image: url(./bl2/bl32.png);
+}
+#bl42{
+    background-image: url(./bl2/bl42.png);
+}
+.bl2txt{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.bl2txt > h2{
+    font-size: 56px;
+    text-align: center;
+    padding: 15% 0%;
+}
+.downp{
+    margin: 0px;
+    font-size: 24px;
+    margin-top: auto;
+}
+.pbl2{
+    font-size: 36px;
+    margin: 0px;
+}
+#txtbl1{
+    margin: 3% 5% 0%;
+}
+#txtbl1 > h2{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 36px;
+    color: #02ecab;
+}
+#txtbl1 > p{
+    font-size: 56px;
+    text-align: center;
+    color: #038a6f;
+}
+#panel{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+#panel > p{
+    font-size: 24px;
+    width: calc(50% - 45px);
+    color: #038a6f;
+}
+#rects2{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+#rects2 > .rect1{
+    border-color: #038a6f;
+}
+#rects2 > .rect2{
+    background-color: #038a6f;
+}
+#imgb5{
+    background-image: url(./bl4/bl54.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover; 
+}
+#imgb6{
+    background-image: url(./bl4/bl64.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover; 
+}
+#imgb7{
+    background-image: url(./bl4/bl74.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover; 
+}
+#imgb8{
+    background-image: url(./bl4/bl84.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover; 
+}
+#citata > h2{
+    font-size: 72px;
+    margin: 7% 0%; 
+    text-align: center;
+    color: #038a6f;
+}
+#lastbl{
+    background-image: url(./lastpic.png);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 30px;
+}
+#lastbl > p{
+    position: relative;
+    top: 30%;
+    text-align: center;
+    font-size: 56px;
+    color: #038a6f;
+}
+#lastbl > div{
+    position: relative;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+}
+#lastbl > div > button{
+    font-size: 18px;
+    height: 36px;
+    padding: 6px 40px;
+    border: 3px #038a6f solid;
+    background-color: transparent;
+    transition: 1s;
+}
+#lastbl > div > button:hover{
+    scale: 1.5;
+}
+/* main */
+
+
+
+#footernav{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+h3{
+    font-style: italic;
+    color: #038a6f;
+    font-size: 15px;
+}
+.elemofnav{
+    margin-right: 180px;
+}
+.listofnav{
+    list-style: none;
+    color: #038a6f;
+    font-size: 15px;
+    padding: 0px;
+}
+.listofnav > li:hover{
+    color: #02ecab;
+}
+#bottxt{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#bot1{
+    font-size: 25px;
+    font-style: italic;
+}
+#bot2{
+    font-size: 30px;
+}
+.sidebot{
+    color: #038a6f;
+    font-size: 12px;
+    width: 30%;
+}
+.smesh{
+    text-align: center;
+}
+#centertxt{
+    color: #02ecab;
+    text-align: center;
+    width: 40%;
+}
+#submit{
+    position: relative;
+    bottom: 30px;
+    left: 90%;
+    font-size: 11px;
+    color: #038a6f;
+    transition: 1s;
+    width: max-content;
+}
+#submit:hover{
+    scale: 2;
+}
+/* footer */
+
+@media (max-width: 1300px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1{
+        order: -1;
+        width: 100%;
+        text-align: center;
+    }
+    .hn > li{padding: 10px 15px;}
+    #pic1txt{
+        flex-direction: column;
+    }
+    #pic1txt > p{
+        font-size: 26px;
+        text-align: center;
+    }
+    #pic1txt > button{
+        margin-top: 20%;
+    }
+    #rects{
+        position: relative;
+        left: calc(50% - 25px);
+        top: 20%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bl4f{
+        display: flex;
+        flex-direction: column;
+    }
+    .bl4{
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+    #imgb1{
+        background-position-y: 50%;
+    }
+    #imgb2{
+        background-position-y: 50%;
+    }
+    #imgb3{
+        background-position-y: 50%;
+    }
+    #imgb4{
+        background-position-y: 50%;
+    }
+    #imgb5{
+        background-position-y: 50%;
+    }
+    #imgb6{
+        background-position-y: 50%;
+    }
+    #imgb7{
+        background-position-y: 50%;
+    }
+    #imgb8{
+        background-position-y: 50%;
+    }
+    .doubleblock{
+        flex-direction: column;
+    }
+    .bl2{
+        width: 90%;
+        padding-bottom: 90%;
+        background-size: cover;
+        margin-left: 5%;
+    }
+    .bl2txt{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .bl2txt > h2{
+        padding: 5% 0%;
+    }
+    .downp{
+        margin: 10px 0px;
+    }
+    .pbl2{
+        margin: 20px 0px;
+        text-align: center;
+    }
+    #txtbl1 > p{
+        font-size: 48px;
+    }
+    #citata > h2{
+        font-size: 56px;
+    }
+    #lastbl > p{
+        font-size: 44px;
+    }
+    .elemofnav{
+        margin-right: 80px;
+    }
+}
+@media (max-width: 810px){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bigtxt{
+        font-size: 30px;
+    }
+    #pic1txt > p{
+        font-size: 20px;
+        text-align: center;
+    }
+    #pic1txt > button{
+        margin-top: 10%;
+    }
+    #rects{
+        position: relative;
+        left: calc(50% - 25px);
+        top: 20%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bl2txt > h2{
+        font-size: 40px;
+    }
+    .pbl2{
+        font-size: 28px;
+    }
+    #txtbl1 > p{
+        font-size: 40px;
+    }
+    #lastbl > p{
+        font-size: 32px;
+    }
+    #lastbl{
+        height: 500px;
+    }
+    .elemofnav{
+        margin-right: 40px;
+    }
+    #citata > h2{
+        font-size: 46px;
+    }
+}
+@media (max-width: 600px){
+    #pic1txt > p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .bigtxt{
+        font-size: 26px;
+    }
+    #imgb1{
+        background-position-y: 40%;
+        height: 400px;
+    }
+    #imgb2{
+        background-position-y: 40%;
+        height: 400px;
+    }
+    #imgb3{
+        background-position-y: 40%;
+        height: 400px;
+    }
+    #imgb4{
+        background-position-y: 40%;
+        height: 400px; 
+    }
+    #imgb5{
+        background-position-y: 40%;
+        height: 400px;
+    }
+    #imgb6{
+        background-position-y: 40%;
+        height: 400px;
+    }
+    #imgb7{
+        background-position-y: 40%;
+        height: 400px;
+    }
+    #imgb8{
+        background-position-y: 40%;
+        height: 400px;
+    }
+    .txtbl4 > p{
+        font-size: 16px;
+    }
+    .bl2txt > h2{
+        font-size: 24px;
+    }
+    .pbl2{
+        font-size: 20px;
+    }
+    .downp{
+        font-size: 14px;
+    }
+    #txtbl1 > h2{
+        margin-top: 5%;
+        text-align: center;
+        font-size: 36px;
+        color: #02ecab;
+    }
+    #txtbl1 > p{
+        font-size: 30px;
+        text-align: center;
+        color: #038a6f;
+    }
+    #panel > p{
+        font-size: 16px;
+        width: calc(50% - 40px);
+        color: #038a6f;
+    }
+    #rects2{
+        width: 80px;
+    }
+    #citata > h2{
+        font-size: 36px;
+    }
+    #lastbl > p{
+        font-size: 24px;
+    }
+    #lastbl{
+        height: 300px;
+    }
+    .elemofnav{
+        margin-right: 20px;
+    }
+    #bottxt{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #bot1{
+        font-size: 16px;
+        font-style: italic;
+    }
+    #bot2{
+        font-size: 24px;
+    }
+    .sidebot{
+        font-size: 12px;
+        width: 50%;
+        text-align: center;
+    }
+    #centertxt{
+        width: 100%;
+        order: -1;
+        margin-bottom: 10px;
+    }
+    .listofnav{
+        font-size: 12px;
+    }
+    #submit:hover{
+        scale: 1.5;
+    }
+}
+@media (max-width:480px){
+    .bigtxt{
+        font-size: 18px;
+    }
+    .txtbl4 > h3{
+        font-size: 18px;
+    }
+    .txtbl4 > p{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    #pic1txt > p{
+        font-size: 16px;
+        text-align: center;
+    }
+    #pic1txt > button{
+        height: 40px;
+        font-size: 14px;
+        padding: 5px 20px;
+        margin-top: 0%;
+    }
+    #txtbl1 > h2{
+        margin-top: 5%;
+        text-align: center;
+        font-size: 20px;
+        color: #02ecab;
+    }
+    #txtbl1 > p{
+        font-size: 16px;
+        text-align: center;
+        color: #038a6f;
+    }
+    #panel > p{
+        font-size: 12px;
+        width: calc(50% - 40px);
+        color: #038a6f;
+    }
+    #imgb1{
+        background-position-y: 40%;
+        height: 250px;
+    }
+    #imgb2{
+        background-position-y: 40%;
+        height: 250px;
+    }
+    #imgb3{
+        background-position-y: 40%;
+        height: 250px;
+    }
+    #imgb4{
+        background-position-y: 40%;
+        height: 250px; 
+    }
+    #imgb5{
+        background-position-y: 40%;
+        height: 250px;
+    }
+    #imgb6{
+        background-position-y: 40%;
+        height: 250px;
+    }
+    #imgb7{
+        background-position-y: 40%;
+        height: 250px;
+    }
+    #imgb8{
+        background-position-y: 40%;
+        height: 250px;
+    }
+    .pbl2{
+        font-size: 14px;
+    }
+    .downp{
+        font-size: 10px;
+    }
+    #citata > h2{
+        font-size: 24px;
+    }
+    #lastbl > p{
+        font-size: 16px;
+    }
+    .elemofnav{
+        width: 50%;
+        margin: 0px;
+    }
+    .el2{text-align: end;}
+    #footernav{
+        justify-content: space-between;
+    }
+    .sidebot{
+        font-size: 8px;
+    }
+    #submit{
+        left: 80%;
+    }
+}
